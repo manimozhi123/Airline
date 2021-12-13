@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('image1.jpg');
+margin: 150px 50px 600px 100px;
+}
+table {
+  border: 1px solid black;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+ 
+}
+</style>
+<meta charset="ISO-8859-1">
+<title >Flight Detail </title>
+</head>
+<body>
 
+<table align="center">
+
+<tr>
+<h1  style="color:red;" align="center">Flight Detail</h1>
+<tr>
+<td style="color:blue;"> Journey Date</td>
+<td><input type="date"name="number"></td>
+</tr>
+<tr>
+<td style="color:blue;">Departure Time </td>
+<td><input type="text"  name="name" ></td>
+
+</tr>
+<tr>
+<td style="color:blue;">Flight No.</td>
+<td><input type="text"name="lastname"></td>
+</tr>
+
+<td style="color:blue;">From</td>
+<td> 
+ <select  onchange='this.form.()'>
+  <option value="">Select a location...</option>
+   <option value="Cambodia">Cambodia</option>
+                                                    <option value="Hong Kong">Hong Kong</option>
+                                                    <option value="India">India</option>
+                                                    <option value="Japan">Japan</option>
+                                                    <option value="Korea">Korea</option>
+                                                    <option value="Laos">Laos</option>
+                                                    <option value="Myanmar">Myanmar</option>
+                                                    <option value="Singapore">Singapore</option>
+                                                    <option value="Thailand">Thailand</option>
+                                                    <option value="Vietnam">Vietnam</option>
+                                                </select></td>
+
+<tr>
+<td style="color:blue;">To</td>
+<td> <select required name='to' onchange='this.form.()'>
+                                                    <option value="">Select a location...</option>
+                                                    <option value="Cambodia">Cambodia</option>
+                                                    <option value="Hong Kong">Hong Kong</option>
+                                                    <option value="India">India</option>
+                                                    <option value="Japan">Japan</option>
+                                                    <option value="Korea">Korea</option>
+                                                    <option value="Laos">Laos</option>
+                                                    <option value="Myanmar">Myanmar</option>
+                                                    <option value="Singapore">Singapore</option>
+                                                    <option value="Thailand">Thailand</option>
+                                                    <option value="Vietnam">Vietnam</option>
+                                                </select></td>
+</tr>
+<tr>
+<td style="color:blue;">Class</td>
+<td><select> <option value="First">First class</option>
+                                                    <option value="Business">Business Class</option>
+                                                    <option value="Economy">Economy Class</option></select></td>
+</tr>
+
+<tr>
+<td style="color:blue;">Charge</td>
+<td><input type="text" name=" name"></td>
+</tr>
+
+<tr>
+<td><input type="submit"  value="Conform" name="conform"></td>
+</tr>
+
+
+
+</table>
+</body>
+
+
+
+
+</html>
